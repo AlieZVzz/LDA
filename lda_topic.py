@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-import numpy as np
-from basic import *
-from sklearn.feature_extraction.text import CountVectorizer
 import lda
 import matplotlib.pyplot as plt
+import numpy as np
 import seaborn as sns
+from sklearn.feature_extraction.text import CountVectorizer
+
+from basic import *
 
 
 def get_lda_input(chapters):
